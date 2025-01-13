@@ -1,3 +1,100 @@
 body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Roboto, sans-serif;
+}
 
+.page-header {
+    height: 100px;
+    width: 100%;
+    align-self: stretch;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 1px #000;
+}
+
+ .header-logo {
+     width: 100px;
+     height: 100px;
+     background-size: cover;
+ }
+
+ .navbar {
+     border-bottom: solid 1px black;
+ }
+
+ .navbar.container {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .nav-links {
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+ .nav-link {
+     margin: 0 10px;
+     line-height: 1.5;
+     font-size: 16px;
+ }
+
+ .main {
+     display: flex;
+ }
+
+ .main-section {
+     margin: 112px 0;
+ }
+
+ .main_content {
+     display: flex;
+     max-width: 770px;
+     flex-direction: column;
+     margin: 0 auto;
+     text-align: center;
+ }
+
+
+.main_h1 {
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #000;
+
+ }
+
+.main_p {
+    height: 81px;
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+}
+
+.main_buttons {
+    margin-top: 30px;
+}
+
+a.btn {
+    width: 150px;
+    height: 48px;
+    margin: 0 8px;
+    padding: 12px;
+    border: solid 1px #000;
+    border-radius: 0;
+}
+
+.main_img {
+    margin-top: 80px;
 }
