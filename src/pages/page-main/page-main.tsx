@@ -6,6 +6,7 @@ export default function PageMain () {
         <>
             <Header />
             <main className="main">
+
                 <section className="container">
                     <div className="main-section">
                         <div className="main_content">
