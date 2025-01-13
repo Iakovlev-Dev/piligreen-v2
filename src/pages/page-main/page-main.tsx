@@ -25,7 +25,6 @@ export default function PageMain () {
                         <img className="main_img" alt="main-photo" src="/img/PlaceholderImage.jpg"/>
                     </div>
                 </section>
-
             </main>
         </>
 
