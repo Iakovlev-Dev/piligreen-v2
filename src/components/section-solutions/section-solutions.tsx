@@ -34,6 +34,7 @@ export default function SectionSolutions() {
                                     <Card.Text className="solutions_text">
                                         Мы предлагаем противогрибковую обработку, чтобы защитить ваши продукты от плесени и разложения.
                                     </Card.Text>
+
                                     <Button variant="primary" className="solutions_btn">Подробнее</Button>
                                 </Card.Body>
                             </Card>
