@@ -24,6 +24,8 @@ body {
 
  .navbar {
      border-bottom: solid 1px black;
+     height: 75px;
+     padding: 0 64px;
  }
 
  .navbar.container {
@@ -44,12 +46,9 @@ body {
      font-size: 16px;
  }
 
- .main {
-     display: flex;
- }
-
- .main-section {
-     margin: 112px 0;
+ .container {
+     width: 100%;
+     margin: 112px 64px;
  }
 
  .main_content {
@@ -59,7 +58,6 @@ body {
      margin: 0 auto;
      text-align: center;
  }
-
 
 .main_h1 {
     align-self: stretch;
@@ -97,4 +95,91 @@ a.btn {
 
 .main_img {
     margin-top: 80px;
+    max-width: 100%;
+}
+
+.solutions_content {
+    padding: 0;
+}
+
+.solutions_h2 {
+    max-width: 770px;
+    margin: 0 auto;
+    height: 96px;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    color: #000;
+}
+
+.solutions_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    align-items: stretch;
+}
+
+.solutions_card {
+    flex: 1;
+    max-width: 405px;
+    box-sizing: border-box;
+    border: 0;
+}
+
+.solutions_img {
+    height: 240px;
+    border-radius: 0;
+}
+
+.solutions_title {
+    align-self: stretch;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
+}
+
+.solutions_text {
+    align-self: stretch;
+    flex-grow: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+}
+
+.solutions_body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.solutions_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 40px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000;
+    background: none;
+    border: solid 1px #000;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.btn-primary {
+    --bs-btn-hover-color: #212529;
+    --bs-btn-hover-bg: #c6c7c8;
+    --bs-btn-hover-border-color: none;
+}
+
+.solutions_btn:after{
+    content: url("/public/img/icons/icon-chevron-right.svg");
+    width: 24px;
+    height: 24px;
 }
